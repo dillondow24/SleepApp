@@ -1,0 +1,16 @@
+{
+  "name": "SleepApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "cd server && yarn setup && cd ../mobile && yarn setup",
+    "mobile:ios": "cd mobile && yarn ios",
+    "server": "cd server && yarn start"
+  },
+  "keywords": [],
+  "author": "DillonDow",
+  "license": "ISC",
+  "dependencies": {}
+}
